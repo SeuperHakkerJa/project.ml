@@ -1,6 +1,6 @@
-from lab1 import *
-from lab2 import *
-# from lab3 import *
+from f1 import *
+from f2 import *
+
 
 
 import matplotlib.pyplot as plt
