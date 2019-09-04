@@ -17,7 +17,7 @@ def save_song_to_abc(song, filename="tmp"):
     return filename
 
 def abc2wav(abc_file):
-    path_to_tool = './introtodeeplearning_labs/lab1/abc2wav'
+    path_to_tool = './music_generator/f1/abc2wav'
     cmd = "{} {}".format(path_to_tool, abc_file)
     return os.system(cmd)
 
