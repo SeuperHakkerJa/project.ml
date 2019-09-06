@@ -86,7 +86,7 @@ class PeriodicPlotter:
   def plot(self, data):
     if time.time() - self.tic > self.sec:
       plt.cla()
-      
+
       if self.scale is None:
         plt.plot(data)
       elif self.scale == 'semilogx':
