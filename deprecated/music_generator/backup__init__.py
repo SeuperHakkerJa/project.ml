@@ -129,7 +129,7 @@ def play_wav(wav_file):
 def play_generated_song(generated_text):
     songs = extract_song_snippet(generated_text)
     if len(songs) == 0:
-        print "No valid songs found in generated text. Try training the model longer or increasing the amount of generated music to ensure complete songs are generated!"
+        print "No valid songs found in generated text. Try training the layers longer or increasing the amount of generated music to ensure complete songs are generated!"
 
     for song in songs:
         basename = save_song_to_abc(song)
